@@ -12,8 +12,21 @@
       <li>{{ producto.descripcion }}</li>
       <!-- Agrega más características según sea necesario -->
     </ul>
-    <p class="product-warranty">Garantía: 1 año</p>
-    <p class="product-condition">Producto: Nuevo</p>
-    <button class="buy-button">Comprar por Whatsapp</button>
+    <div class="benefits-container">
+      <h6>Beneficios de Comprar un Auto en CAR MOTORS</h6> <!-- Cambiado de h3 a h4 -->
+      <ul class="benefits-list">
+          <li><p class="product-warranty">Variedad de Modelos adaptados a tus necesidades.</p></li>
+          <li><p class="product-warranty">Calidad garantizada en todos nuestros vehículos.</p></li>
+          <li><p class="product-warranty">1 año de garantía en cada compra.</p></li>
+          <li><p class="product-warranty">Opciones de financiamiento asequibles.</p></li>
+          <li><p class="product-warranty">Asesoramiento personalizado durante tu compra.</p></li>
+          <li><p class="product-warranty">Servicio postventa para tu tranquilidad.</p></li>
+          <li><p class="product-warranty">Ofertas y promociones especiales.</p></li>
+          <li><p class="product-warranty">Pruebas de manejo disponibles.</p></li>
+      </ul>
+  </div>
+  
+  
+    <button class="buy-button" (click)="abrirWhatsApp()">Comprar por Whatsapp</button>
   </div>
 </div>

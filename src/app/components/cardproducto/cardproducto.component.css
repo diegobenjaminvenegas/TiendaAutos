@@ -1,14 +1,13 @@
 .btn-outline-orange {
-  color: orangered;
-  border-color: orangered;
+  color: #1E90FF; /* Azul claro */
+  border-color: #1E90FF; /* Azul claro */
 }
 
 .btn-outline-orange:hover {
-  color: white;
-  background-color: orangered;
-  border-color: orangered;
+  color: white; /* Color del texto en blanco */
+  background-color: #1E90FF; /* Azul claro */
+  border-color: #1C86EE; /* Azul más oscuro */
 }
-
 
 /* Estilos para el párrafo de la descripción del producto */
 .descripcion {
@@ -25,13 +24,12 @@
 
 .descripcion::first-letter {
   font-size: 2rem; /* Tamaño de la primera letra */
-  color: #007bff; /* Color de la primera letra */
+  color: #1E90FF; /* Azul claro para la primera letra */
   float: left; /* Flotar la primera letra a la izquierda */
   padding-right: 5px; /* Espacio después de la primera letra */
   font-family: Georgia, serif; /* Fuente de la primera letra */
   margin-right: 5px; /* Margen derecho para separar la primera letra del texto */
 }
-
 
 .product-detail {
   display: flex;
@@ -51,12 +49,12 @@
 
 .product-title {
   font-size: 2em;
-  color: #333;
+  color: #333; /* Color del título */
 }
 
 .product-price {
   font-size: 1.5em;
-  color: red;
+  color: #1E90FF; /* Azul claro para el precio */
   margin-top: 10px;
 }
 
@@ -67,20 +65,20 @@
 
 .product-features li {
   font-size: 1em;
-  color: #666;
+  color: #666; /* Color de características */
   margin-top: 5px;
 }
 
 .product-warranty,
 .product-condition {
   font-size: 1em;
-  color: #666;
+  color: #666; /* Color de garantía y condición */
   margin-top: 10px;
 }
 
 .buy-button {
-  background-color: #ff0000;
-  color: white;
+  background-color: #1E90FF; /* Azul claro */
+  color: white; /* Color del texto en blanco */
   font-size: 1.2em;
   padding: 10px 20px;
   border: none;
@@ -90,6 +88,34 @@
 }
 
 .buy-button:hover {
-  background-color: #e60000;
+  background-color: #1C86EE; /* Azul más oscuro */
+}
+.benefits-container {
+  margin: 20px auto;
+  padding: 10px; /* Padding reducido */
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 800px;
+  font-size: 0.8rem; /* Tamaño de fuente más pequeño */
+}
+
+.benefits-list {
+  list-style-type: disc; /* Viñetas sutiles */
+  padding-left: 20px; /* Alineación de viñetas */
+}
+
+.benefits-list li {
+  margin-bottom: 3px; /* Espacio reducido entre cada beneficio */
+}
+
+.benefits-container h4 {
+  font-size: 1.2rem; /* Tamaño de h4 más pequeño */
+  color: #333; /* Color del texto del encabezado */
+}
+
+.product-warranty {
+  color: #666; /* Color del texto más suave */
+  margin: 0; /* Sin margen adicional */
 }
 

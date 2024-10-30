@@ -24,6 +24,12 @@ export class CardproductoComponent implements OnInit {
     const id = this.activateRoute.snapshot.paramMap.get('id') || '0';
     this.producto = this._productosService.getProducto(parseInt(id));
   }
+
+  abrirWhatsApp() {
+    const telefono = 77601862;
+    const mensaje = encodeURIComponent(`Hola, mi nombre es " " y queria informacion sobre...`);
+    window.open(`https://wa.me/${telefono}?text=${mensaje}`, '_blank');
+  }
 }
 
 

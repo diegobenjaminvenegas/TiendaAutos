@@ -1,0 +1,31 @@
+footer {
+    background-color: #333; /* Fondo oscuro para el footer */
+    color: #ddd; /* Texto en tono claro */
+  }
+  
+  footer h5 {
+    color: #007BFF; /* Azul oscuro para los títulos */
+  }
+  
+  footer a.text-light {
+    color: #bbb; /* Color gris claro para enlaces */
+    transition: color 0.3s ease;
+  }
+  
+  footer a.text-light:hover {
+    color: #007BFF; /* Cambia a azul oscuro en hover */
+  }
+  
+  footer .border-top {
+    border-top: 1px solid #555; /* Borde superior en gris oscuro */
+  }
+  
+  footer .bi {
+    font-size: 1.25rem; /* Tamaño de íconos sociales */
+    transition: color 0.3s ease;
+  }
+  
+  footer .bi:hover {
+    color: #007BFF; /* Azul oscuro en hover para los íconos sociales */
+  }
+  

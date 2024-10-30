@@ -1,0 +1,99 @@
+.servicios-container {
+    padding: 20px;
+    background-color: #f9f9f9; /* Color de fondo */
+    text-align: center; /* Centrar texto */
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #0c4c8a; /* Azul claro de la empresa */
+    margin-bottom: 20px;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    color: #333; /* Color del texto */
+    margin-bottom: 40px;
+  }
+  
+  .servicios-list {
+    display: flex;
+    flex-wrap: wrap; /* Para que se ajusten a diferentes tamaños de pantalla */
+    justify-content: center; /* Centrar contenido */
+  }
+  
+  .servicio-item {
+    background-color: #ffffff; /* Fondo blanco para destacar el servicio */
+    border: 1px solid #ccc; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    flex: 0 0 300px; /* Ancho fijo */
+    text-align: left; /* Texto alineado a la izquierda */
+  }
+  
+  .servicio-imagen {
+    text-align: center; /* Centrar imagen */
+    margin-bottom: 15px; /* Espacio entre la imagen y el texto */
+  }
+  
+  .servicio-imagen img {
+    max-width: 100%; /* Imagen responsiva */
+    border-radius: 5px; /* Bordes redondeados para las imágenes */
+  }
+  
+  .btn {
+    background-color: #0c4c8a; /* Color de fondo azul claro */
+    color: white; /* Color del texto */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase; /* Texto en mayúsculas */
+    margin-top: 15px;
+    transition: background-color 0.3s; /* Transición suave */
+  }
+  
+  .btn:hover {
+    background-color: #005577; /* Azul más oscuro al pasar el ratón */
+  }
+  
+
+
+
+
+  .servicios-container {
+    max-width: 1200px; /* Ajusta el ancho máximo según tus necesidades */
+    margin: 0 auto; /* Centra el contenedor principal */
+    padding: 20px;
+  }
+  
+  .servicios-list {
+    display: flex; /* Utiliza flexbox para alinear los elementos en fila */
+    justify-content: space-between; /* Espacia los elementos de manera uniforme */
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en múltiples filas si es necesario */
+  }
+  
+  .servicio-item {
+    flex: 1 1 calc(25% - 20px); /* Ocupa el 25% del ancho menos el espacio */
+    margin: 10px; /* Margen alrededor de cada contenedor */
+    border: 1px solid #ccc; /* Borde para separación visual */
+    border-radius: 8px; /* Bordes redondeados */
+    display: flex; /* Usar flexbox para alinear el contenido */
+    flex-direction: column; /* Organiza el contenido en columna */
+    justify-content: space-between; /* Asegura que el contenido se distribuya en el espacio disponible */
+    padding: 10px;
+  }
+  
+  .servicio-imagen img {
+    width: 100%; /* Imagen ocupa todo el ancho del contenedor */
+    height: 300px; /* Mantiene la proporción de la imagen */
+    max-height: 200px; /* Altura máxima para uniformidad */
+    object-fit: cover; /* Cubre el área del contenedor sin distorsionar la imagen */
+  }
+  
+  .btn {
+    margin-top: auto; /* Empuja el botón hacia la parte inferior del contenedor */
+  }
+  

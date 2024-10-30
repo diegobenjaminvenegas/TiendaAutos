@@ -1,0 +1,52 @@
+/* Logo del navbar */
+.navbar-logo {
+    width: 200px; /* Ancho ajustado para el logo */
+    height: 100px; /* Altura ajustada para el logo */
+  }
+  
+  /* Fondo oscuro para el navbar */
+  .navbar {
+    background-color: #333;
+  }
+  
+  /* Estilo de los enlaces del navbar */
+  .navbar-nav .nav-link {
+    color: #ddd; /* Color claro para los enlaces */
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-nav .nav-link:hover {
+    color: #007BFF; /* Azul oscuro al pasar el mouse */
+  }
+  
+  .navbar-nav .nav-link.active {
+    color: #007BFF; /* Azul oscuro para la opción activa */
+  }
+  
+  /* Estilo del botón de búsqueda */
+  .form-inline .btn-outline-blue-dark {
+    color: #007BFF;
+    border-color: #007BFF;
+    transition: background-color 0.3s ease;
+  }
+  
+  .form-inline .btn-outline-blue-dark:hover {
+    color: white;
+    background-color: #0056b3; /* Azul más oscuro en hover */
+    border-color: #0056b3;
+  }
+  
+  /* Estilo del input de búsqueda */
+  .search-input {
+    border-radius: 30px;
+    border: 1px solid #666;
+    background-color: #444;
+    color: #ddd;
+    padding: 8px 15px;
+  }
+  
+  .search-input::placeholder {
+    color: #aaa;
+  }
+  

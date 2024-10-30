@@ -1,8 +1,9 @@
-<div class="card">
-  <img [src]="producto.img" class="card-img-top" [alt]="producto.nombre">
-  <div class="card-body">
-    <h5 class="card-title">{{ producto.nombre }}</h5>
-    <p class="card-text">Precio: {{ producto.precio | currency:'Bs' }}</p>
-    <button (click)="verProducto()" class="btn">Ver Producto</button>
+<div class="card-container">
+  <div class="card" style="width: 18rem;">
+    <img [src]="producto.img" class="card-img-top" [alt]="producto.nombre" style="height: 200px; object-fit: cover;">
+    <div class="card-body">
+      <h5 class="card-title">{{ producto.nombre }}</h5>
+      <p class="card-text">Precio: {{ producto.precio | currency:'Bs' }}</p>
+      <button (click)="verProducto()" class="btn">Ver Producto</button>
+    </div>
   </div>
-</div>

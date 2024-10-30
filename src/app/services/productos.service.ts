@@ -7,114 +7,115 @@ export class ProductosService{
     }
     private productos: Producto[] = [
         { 
-            nombre: "PC Gamer Fire Green Plus Core I7 12700F 12th", 
-            img: "https://mipclista.com/6539-home_default/pc-gamer-draco-green-plus-core-i5-12400f-12th.jpg",
-            precio: 9500,
-            descripcion: "Procesador: Intel Core i7 12700F, 2.1GHz/4.9GHz, 12 núcleos, 20 hilos, 25MB SmartCaché, Disco Sólido SSD: M.2 1TB NVMe PCIe, Memoria RAM: 32GB DDR5 5200MHz, Tarjeta Madre: B760, Tarjeta de Video: RTX3060 12GB, Monitor: Curvo FHD 24'' 100Hz, Fuente de Poder: 700W 80PLUS BRONZE, Incluye KIT GAMER HALION: Teclado + Mouse, Enfriamiento: Líquido 240 (2 radiadores)"
+            nombre: "Toyota Corolla 2023", 
+            img: "https://img.asmedia.epimg.net/resizer/v2/P24KNJ2V4VAHXFYOCY35F5G57A.jpg?auth=0e439f9bd4ca9ba6b99f6e42cccc8c82f010632ffdb642869841e9ff148f531f&width=1472&height=828&focal=976%2C427",
+            precio: 25000,
+            descripcion: "Modelo: Toyota Corolla, Año: 2023, Motor: 2.0L, Transmisión: Automática, Kilometraje: 10,000 km, Color: Blanco, Características: Pantalla táctil de 7'', cámara de reversa, sensores de estacionamiento, Bluetooth."
         },
         { 
-            nombre: "PC Gamer Hero RGB Plus Core I9 12900KF 12th", 
-            img: "https://mipclista.com/6510-home_default/pc-gamer-hero-rgb-plus-core-i9-12900f-12th.jpg",
-            precio: 9999,
-            descripcion: "Procesador: Intel Core i9 12900KF 3.2GHz/5.10GHz, 24 núcleos, 32 hilos, 36MB SmartCaché, Disco Sólido SSD: M.2 2TB NVMe PCIe, Memoria RAM: 128GB DDR5 5200MHz, Tarjeta Madre: B760 DDR5, Tarjeta de Video: RTX4070 12GB GDDR6X, Monitor: Samsung ODYSSEY Curvo 27'' 144Hz, Fuente de Poder: 850W GOLD GAMME MAX, Incluye: Teclado Mecánico + Mouse Logitech G203 6000DPI, Enfriamiento: Líquido 360 (3 radiadores)"
+            nombre: "Honda Civic 2022", 
+            img: "https://di-uploads-pod13.dealerinspire.com/hillsidehonda/uploads/2022/01/2022-Honda-Civic-Hatchback-Hillside-Honda-1024x555.jpeg",
+            precio: 24000,
+            descripcion: "Modelo: Honda Civic, Año: 2022, Motor: 2.0L, Transmisión: Manual, Kilometraje: 5,000 km, Color: Negro, Características: Asientos de piel, sistema de audio premium, cámara de reversa, control de crucero."
         },
         { 
-            nombre: "PC Gamer View 51 Glass RGB Plus Core I9 14900K 14th", 
-            img: "https://mipclista.com/6456-home_default/pc-gamer-firex8-rgb-plus-core-i9-13900k-13th.jpg",
-            precio: 11500,
-            descripcion: "Procesador: Intel Core i9-14900K 3.20/6.0GHz, 24 núcleos, 32 hilos, 36MB SmartCaché, Disco Sólido SSD: M.2 2TB NVMe PCIe, Memoria RAM: 64GB DDR5 5200MHz, Tarjeta Madre: Z790, Tarjeta de Video: RTX4090 24GB, Monitor: Samsung ODYSSEY Curvo 27'' 144Hz, Fuente de Poder: 1050W 80PLUS SILVER, Incluye: Teclado Mecánico + Mouse Logitech G203 6000DPI, Enfriamiento: Líquido 360 (3 radiadores)"
+            nombre: "Ford Mustang 2023", 
+            img: "https://www.autopista.es/uploads/s1/10/15/44/03/el-ford-mustang-de-nueva-generacion-en-2023.jpeg",
+            precio: 45000,
+            descripcion: "Modelo: Ford Mustang, Año: 2023, Motor: V8 5.0L, Transmisión: Automática, Kilometraje: 1,000 km, Color: Rojo, Características: Sistema de sonido Bang & Olufsen, asientos calefaccionados, techo panorámico."
         },
         { 
-            nombre: "Mouse", 
-            img: "https://maxxicomp.com/5491-large_default/mouse-xtrike-me-gm-520-rgb-usb-gaming-programable.jpg",
-            precio: 150,
-            descripcion: "Mouse Xtrike Me GM-520 RGB USB gaming programable, perfecto para jugadores exigentes."
+            nombre: "Chevrolet Silverado 2023", 
+            img: "https://di-uploads-pod20.dealerinspire.com/edwardschevydowntown/uploads/2022/12/Chevy-truck-dealer-near-Brighton-AL-2023-Chevy-Silverado-1500-Z71-red.jpg",
+            precio: 35000,
+            descripcion: "Modelo: Chevrolet Silverado, Año: 2023, Motor: V8 5.3L, Transmisión: Automática, Kilometraje: 2,500 km, Color: Azul, Características: Pantalla de 8'', sistema de navegación, cama de 6.5 pies."
         },
         { 
-            nombre: "Mouse Gamer Logitech G502 Hero", 
-            img: "https://mipclista.com/6326-home_default/mouse-halion-cartoon-ha-m853-usb.jpg",
-            precio: 350,
-            descripcion: "Resolución: 100-25600 dpi, Tasa de USB: 1000 Hz (1ms), Microprocesador: 32-bit ARM, Cantidad de botones: 11, Sistemas operativos compatibles: ChromeOS, Windows 10, Windows 7, macOS 10.11"
+            nombre: "BMW X5 2022", 
+            img: "https://www.autopista.es/uploads/s1/78/50/33/7/la-version-competition-del-bmw-x5-una-de-las-ultimas-en-anadirse-a-la-gama.jpeg",
+            precio: 60000,
+            descripcion: "Modelo: BMW X5, Año: 2022, Motor: 3.0L Turbo, Transmisión: Automática, Kilometraje: 15,000 km, Color: Gris, Características: Asientos de cuero, sistema de infoentretenimiento iDrive, asistencia de estacionamiento."
         },
         { 
-            nombre: "Mouse Gamer Logitech G203 Lightsync", 
-            img: "https://mipclista.com/2276-home_default/mouse-gamer-logitech-g203-lightsync.jpg",
-            precio: 250,
-            descripcion: "Resolución del sensor: 8000 dpi, Cantidad de botones: 6, Interfaces: USB, Alcance máximo: 2.1 m"
+            nombre: "Mercedes-Benz GLE 2023", 
+            img: "https://images.ctfassets.net/c9t6u0qhbv9e/7weq8HdYEMTU7WzfcHJWbQ/8f2df6e4533121583e8592b259ca5285/2023_Mercedes-Benz_GLE-Class_review_summary.jpeg",
+            precio: 70000,
+            descripcion: "Modelo: Mercedes-Benz GLE, Año: 2023, Motor: 3.0L Turbo, Transmisión: Automática, Kilometraje: 5,000 km, Color: Plata, Características: Techo corredizo, asientos ventilados, sistema de sonido Burmester."
         },
         { 
-            nombre: "Monitor MSI Optix G242P 23.8 144Hz FHD", 
-            img: "https://mipclista.com/3468-home_default/monitor-msi-optix-g242p-238-144hz.jpg",
-            precio: 150,
-            descripcion: "Monitor de juegos IPS, Tamaño: 23.8\", Tipo de panel: LCD de tipo IPS, Resolución: 1920 x 1080, Relación de aspecto: 16:9, Píxeles por pulgada (PPI): 92 PPI, Terminar: Anti-Glare / Matte, Brillo máximo: 250 CD / m2, Frecuencia de actualización: 144 Hz, Soporte de profundidad / color de bits: 6 bit+FRC (16,7 millones de colores), Compatibid HDR: Ninguna, Gama de colores: 94.6% DCI-P3, 127.7% sRGB, Tiempo de respuesta: 1 ms, Ángulo de visión (H x V): 178 x 178 °, Entradas: 2 x HDMI, 1 x DisplayPort 1.2, 1 x 3.5 mm, Consumo de energía: 25 W (típico), Ajuste de rotación: 180 ° (-90 a 90 °), Ajuste giratorio: 90 ° (-45 a 45 °), Ajuste de inclinación: -5 a 20 °"
+            nombre: "Nissan Altima 2023", 
+            img: "https://cdn.jdpower.com/JDP_2023%20Nissan%20Altima%20SL%20Garnet%20Pearl%20Red%20Front%20Quarter%20View.jpg",
+            precio: 23000,
+            descripcion: "Modelo: Nissan Altima, Año: 2023, Motor: 2.5L, Transmisión: CVT, Kilometraje: 8,000 km, Color: Negro, Características: Asistente de seguridad, pantalla de 8'', conectividad Apple CarPlay y Android Auto."
         },
         { 
-            nombre: "Monitor Samsung C27G55T 27 144HZ FHD", 
-            img: "https://mipclista.com/2278-home_default/monitor-aoc-c2761-27.jpg",
-            precio: 150,
-            descripcion: "Laptop Intel Core i7 13700H 3.7GHz (Turbo 5.0GHz) 14 núcleos, 20 hilos, Disco Sólido SSD M.2 2TB, Memoria RAM 32GB DDR5 (4800MHz), Pantalla FHD 16.1'' (1920x1080) 144Hz, Tarjeta Video GeForce RTX 4070 8GB GDDR6, Teclado iluminado inglés, Webcam HD 720p, Windows 11 Home, 1x HDMI 2.1, 3x USB Tipo A 3.1 Gen 1, 1x USB Tipo C 3.1 Gen 1, 1x RJ45, Wifi 6E AX211 (Gig+), Bluetooth 5.3, Batería 6 celdas, Pantalla: Plana, Tamaño: 23.8'', Tipo de panel: IPS, Resolución de pantalla: FHD (1920x1080), Tasa de refresco: 144 Hz, Tiempo de respuesta: 1ms, Brillo: 240 cd/m2, Contraste: 1000:1, Puertos: HDMI y Display Port, Pantalla: 2k WQHD 2560x1440 Curvo, Proporción: WIDE (16:9), Curvatura de pantalla: 1500 R, Contraste: 80000000:1, Ángulo de visión: 178º / 178º, Freesync para disfrutar toda la acción sin parpadeos, Tecnología AMD FlickerFree, Tiempo de respuesta: 1MS(MPRT), Frecuencia: 144HZ, Puertos: VGA y HDMI"
+            nombre: "Hyundai Tucson 2023", 
+            img: "https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2022/09/hyundai-tucson-opel-grandland-2022-2804009.jpg?tf=3840x",
+            precio: 29000,
+            descripcion: "Modelo: Hyundai Tucson, Año: 2023, Motor: 2.5L, Transmisión: Automática, Kilometraje: 7,000 km, Color: Rojo, Características: Control de clima automático, sistema de navegación, sensores de estacionamiento."
         },
         { 
-            nombre: "Monitor LG 24GN65R-B Ultragear IPS 24'' 144Hz FHD", 
-            img: "https://mipclista.com/5336-home_default/monitor-lg-24gn65r-b-ultragear-ips-24-144hz.jpg",
-            precio: 150,
-            descripcion: "Laptop Intel Core i7 13700H 3.7GHz (Turbo 5.0GHz) 14 núcleos, 20 hilos, Disco Sólido SSD M.2 2TB, Memoria RAM 32GB DDR5 (4800MHz), Pantalla FHD 16.1'' (1920x1080) 144Hz, Tarjeta Video GeForce RTX 4070 8GB GDDR6, Teclado iluminado inglés, Webcam HD 720p, Windows 11 Home, 1x HDMI 2.1, 3x USB Tipo A 3.1 Gen 1, 1x USB Tipo C 3.1 Gen 1, 1x RJ45, Wifi 6E AX211 (Gig+), Bluetooth 5.3, Batería 6 celdas, Pantalla: Plana, Tamaño: 23.8'', Tipo de panel: IPS, Resolución de pantalla: FHD (1920x1080), Tasa de refresco: 144 Hz, Tiempo de respuesta: 1ms, Brillo: 240 cd/m2, Contraste: 1000:1, Puertos: HDMI y Display Port"
+            nombre: "Kia Sportage 2023", 
+            img: "https://cdn.autobild.es/sites/navi.axelspringer.es/public/media/image/2023/08/kia-sportage-vs-kia-sorento-3117844.jpg?tf=3840x",
+            precio: 27000,
+            descripcion: "Modelo: Kia Sportage, Año: 2023, Motor: 2.4L, Transmisión: Automática, Kilometraje: 6,000 km, Color: Blanco, Características: Pantalla táctil de 10.25'', cámara de reversa, asistente de mantenimiento de carril."
         },
         { 
-            nombre: "Laptops Asus TUF Gaming F15 FX507Z 15.6” Core I5 12500H", 
-            img: "https://mipclista.com/6585-home_default/laptop-hp-250-g9-156-core-i5-12th.jpg",
-            precio: 3895,
-            descripcion: "Procesador: Intel Core i5 12500H 2.5 GHz hasta 4.5 GHz, 12 Núcleos, 16 Hilos, Caché 18 MB, Discos Sólidos SSD: M.2 de 512GB NVMe y 1TB NVMe, RAM: 32GB DDR4 3200 MHz, Tarjeta de video: GeForce RTX 3050 (4GB GDDR6), Pantalla: 15.6\" FHD (1920 x 1080) 144Hz, Conectividad: Wifi 6 - Bluetooth® 5.2, Webcam: HD 720p, Puertos: 1 x HDMI 2.0b, 2 x USB 3.2 Gen 1, 2 x USB 3.2 Gen 2, 1 x RJ-45, Teclado: Retroiluminado - español, Batería: 4 celdas"
+            nombre: "Subaru Outback 2023", 
+            img: "https://acnews.blob.core.windows.net/imgnews/medium/NAZ_371a054dfccf421080e16333ee165afe.webp",
+            precio: 32000,
+            descripcion: "Modelo: Subaru Outback, Año: 2023, Motor: 2.5L, Transmisión: Automática, Kilometraje: 3,000 km, Color: Verde, Características: Sistema de tracción integral, asientos calefaccionados, pantalla de 11.6''."
         },
         { 
-            nombre: "Laptops HP 15-Fc0012iA 15.6’’ RYZEN 7 7730U", 
-            img: "https://mipclista.com/6338-home_default/laptop-hp-250-g9-156-core-i7-1255u.jpg",
-            precio: 150,
-            descripcion: "Procesador: AMD Ryzen 7 7730U 2.xGHz/4.5GHz, 8 núcleos, 16 hilos, Smartcaché 16MB, Disco sólido SSD: M.2 1TB, Memoria RAM: 32GB DDR4, Pantalla: 15.6\" FHD, Gráficos: AMD Radeon Graphics, Puertos: 2 USB 3.0, HDMI, Tipo C, Teclado: español, Conector combinado con auriculares/micrófono, Bluetooth 5.0, Webcam, Batería: Iones de litio de 3 celdas y 41 Wh"
+            nombre: "Toyota RAV4 2022", 
+            img: "https://www.autofacil.es/wp-content/uploads/2022/01/toyotarav4electrichybridadventure3.jpg",
+            precio: 32000,
+            descripcion: "Modelo: Toyota RAV4, Año: 2022, Motor: 2.5L 4 cilindros, Transmisión: Automática, Kilometraje: 10,000 km, Color: Rojo, Características: Tracción en las cuatro ruedas, sistema de seguridad Toyota Safety Sense."
         },
         { 
-            nombre: "Laptops HP Victus 16.1", 
-            img: "https://mipclista.com/5346-home_default/laptop-hp-victus-156-core-i5-13th.jpg",
-            precio:3500,
-             descripcion: "Laptop Intel Core i7 13700H 3.7GHz (Turbo 5.0GHz) 14 núcleos, 20 hilos, Disco Sólido SSD M.2 2TB, Memoria RAM 32GB DDR5 (4800MHz), Pantalla FHD 16.1'' (1920x1080) 144Hz, Tarjeta Video GeForce RTX 4070 8GB GDDR6, Teclado iluminado inglés, Webcam HD 720p, Windows 11 Home, 1x HDMI 2.1, 3x USB Tipo A 3.1 Gen 1, 1x USB Tipo C 3.1 Gen 1, 1x RJ45, Wifi 6E AX211 (Gig+), Bluetooth 5.3, Batería 6 celdas"
+            nombre: "Audi Q7 2022", 
+            img: "https://www.audi.bo/content/dam/nemo/models/q7/q7/my-2022/NeMo-Derivate-Startpage/stage/1920x1080-Q7_2020_1986.jpg?width=768",
+            precio: 80000,
+            descripcion: "Modelo: Audi Q7, Año: 2022, Motor: 3.0L V6 Turbo, Transmisión: Automática, Kilometraje: 8,000 km, Color: Blanco, Características: Asientos para 7 pasajeros, sistema de sonido premium Bang & Olufsen."
         },
         { 
-            nombre: "Laptops Acer Nitro 5 17.3 Core I7 12th Gen", 
-            img: "https://mipclista.com/5619-large_default/laptop-acer-nitro-5-173-core-i7-12th-gen.jpg",
-            precio: 5999,
-            descripcion: "Procesador: Intel Core i7-12650H 2.7GHz/4.7GHz, 10 núcleos, 16 hilos, 24MB SmartCaché, Disco Sólido SSD: M.2 2TB NVMe, Memoria RAM: 32GB DDR5, Pantalla: 17.3'' FHD 144Hz IPS, Tarjeta de video: RTX 4050 6GB GDDR6, Conectividad: IEEE 802.11ax Wireless LAN / Ethernet (RJ45), Webcam: 1280 x 720 / Bluetooth 5.1, Puertos: 3x USB-A 3.2, 1x puerto USB Type-C, 1x puerto HDMI 2.0, Audio jack (3.5 mm), Sistema Operativo: Windows 11 Home, Teclado: Backlit Chiclet Keyboard Per-Key RGB español, Batería: Li-ion 90Wh"
+            nombre: "Volkswagen Tiguan 2023", 
+            img: "https://di-uploads-pod44.dealerinspire.com/nyevolkswagen/uploads/2023/01/Front-angle-view-of-white-2023-Volkswagen-Tiguan-highlighting-its-release-date-and-price-1.jpg",
+            precio: 37000,
+            descripcion: "Modelo: Volkswagen Tiguan, Año: 2023, Motor: 2.0L 4 cilindros, Transmisión: Automática, Kilometraje: 5,000 km, Color: Plata, Características: Pantalla táctil de 8'', sistema de asistencia para estacionamiento."
         },
         { 
-            nombre: "Laptops ASUS TUF Gaming FA506NF-HN004 15.6'' Ryzen 5", 
-            img: "https://mipclista.com/6187-large_default/laptop-lenovo-ideapad-gaming-3-156-core-i5-12th.jpg",
-            precio: 150,
-            descripcion: "Procesador: AMD Ryzen 5 7535HS 3.30 / 4.55 GHz, 6 núcleos, 12 hilos, 19MB caché, Disco SSD: M.2 NVMe 512GB, Memoria RAM: 16GB DDR5, Pantalla: 15.6\" FHD (1920 x 1080), Tarjeta de video: RTX2050 4GB GDDR6, Conectividad: Wifi 6, Bluetooth 5.3, Puertos: 3x USB 3.2 Tipo-A Gen 1, 1x USB 3.2 Gen 2 Tipo-C (soporta DisplayPort), 1x RJ45, 1x HDMI, 1x Conector Micrófono/Audífono jack 3.5, Teclado: español, Batería: 3 Celdas 48Wh, Cámara web: Sí con micrófono incorporado"
+            nombre: "Honda CR-V 2022", 
+            img: "https://superautospanama.com/app/nitroapp/layout/media/pubs/2153/0_32536100_1666496167-2153.png",
+            precio: 33000,
+            descripcion: "Modelo: Honda CR-V, Año: 2022, Motor: 1.5L Turbo, Transmisión: CVT, Kilometraje: 12,000 km, Color: Azul, Características: Asientos traseros reclinables, compatibilidad con Apple CarPlay y Android Auto."
         },
         { 
-            nombre: "Laptops HP 255 G10 15.6'' Ryzen 3 7330U", 
-            img: "https://mipclista.com/4473-large_default/laptop-hp-15ef2522la-156-ryzen-3.jpg",
-            precio: 150,
-            descripcion: "Procesador: AMD Ryzen™ 3 7330U 2.3GHz/4.3GHz, 4 núcleos, 8 hilos, 8MB caché L3, Disco Sólido SSD: M.2 1TB NVMe, Memoria RAM: 32GB DDR4, Pantalla: 15.6'' HD, Gráficos: AMD Radeon, Puertos: 2 USB SuperSpeed Type-A (5GB/s), 1 USB SuperSpeed Type-C (5GB/s), 1 RJ-45, 1 Combinación de auriculares y micrófono, 1 HDMI 1.4b, Webcam: HD 720p, Teclado: completo en español, Batería: Iones de litio de 3 celdas, 41Wh de larga duración HP"
+            nombre: "Ford Explorer 2023", 
+            img: "https://autosdeprimera.com/wp-content/uploads/2022/08/ford-explorer-china-2023-b.jpg",
+            precio: 48000,
+            descripcion: "Modelo: Ford Explorer, Año: 2023, Motor: 2.3L EcoBoost, Transmisión: Automática, Kilometraje: 0 km, Color: Azul, Características: Sistema de tracción total, asientos para 7 pasajeros."
         },
         { 
-            nombre: "Camara Web HD Microsoft Lifecam Studio", 
-            img: "https://mipclista.com/2282-home_default/camara-web-hd-microsoft-lifecam-studio.jpg",
-            precio: 150,
-            descripcion: "Dispositivo: Cámara Web, Resolución del sensor: 1080p HD, Captura de vídeo hasta 720p, Micrófono integrado, Plataformas de trabajo: Windows XP, Windows Vista SP1, Windows 7"
+            nombre: "Mazda CX-5 2022", 
+            img: "https://www.muycomputer.com/wp-content/uploads/2022/10/Destacada-Mazda-CX-5-2022.jpg",
+            precio: 33000,
+            descripcion: "Modelo: Mazda CX-5, Año: 2022, Motor: 2.5L 4 cilindros, Transmisión: Automática, Kilometraje: 8,000 km, Color: Rojo, Características: Asientos de cuero, sistema de audio premium."
         },
         { 
-            nombre: "Camara Web Logitech BRIO 105", 
-            img: "https://mipclista.com/6322-home_default/camara-web-logitech-brio-4k-pro-ultra-hd-usb-30.jpg",
-            precio: 150,
-            descripcion: "Sensor de imagen: 2MP CMOS, Micrófono omnidireccional incorporado con alcance de hasta 1 m, Conectividad: Plug and Play USB-A, Campo visual diagonal (dFOV): 58°, Enfoque fijo, Lente especial de plástico de 4 elementos con revestimiento antirreflectante, Tapa de privacidad integrada, Opciones de montaje: Clip de montaje adjunto para monitores, pantallas LCD y portátiles"
+            nombre: "Subaru Forester 2023", 
+            img: "https://img.motoryracing.com/noticias/portada/34000/34671-n.jpg",
+            precio: 35000,
+            descripcion: "Modelo: Subaru Forester, Año: 2023, Motor: 2.5L Boxer, Transmisión: CVT, Kilometraje: 0 km, Color: Amarillo, Características: Tracción en las cuatro ruedas, asistente de conducción EyeSight."
         },
         { 
-            nombre: "Camara Web 4K", 
-            img: "https://mipclista.com/3760-home_default/camara-web-4k-.jpg",
-            precio: 150,
-            descripcion: "Material: ABS, Funciones: Built-in Microphone, Full HD camera, Tipo de conexión: USB, Sensor: CMOS, Formatos de video: AVI, Formatos de foto: BMP, JPG, Resolución: 3840 x 2560P, Longitud del cable: 1.5m, Formato de salida: M-JPEG, Control de parpadeo: 50Hz, Sistemas compatibles: Windows 2000/XP, Vista, Win7/Win8/Win10, Mac OS, Linux"
-        },
-    ];
+            nombre: "Volkswagen Tiguan 2022", 
+            img: "https://di-uploads-pod33.dealerinspire.com/volkswagenofmarion/uploads/2021/12/2022-vw-tiguan-profile.jpg",
+            precio: 36000,
+            descripcion: "Modelo: Volkswagen Tiguan, Año: 2022, Motor: 2.0L Turbo, Transmisión: Automática, Kilometraje: 12,000 km, Color: Negro, Características: Pantalla táctil de 8'', sistema de navegación."
+        }
+        
+    ]
     
     getProductos(): Producto[]
     {return this.productos;}

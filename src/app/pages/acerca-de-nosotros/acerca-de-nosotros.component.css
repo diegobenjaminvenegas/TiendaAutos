@@ -1,0 +1,55 @@
+.contact-section {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  background-color: #2d2d2d; /* Fondo oscuro para la sección */
+}
+
+.contact-item {
+  background-color: #1b7399; /* Color de fondo azul claro */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 30%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra más marcada */
+  margin-bottom: 20px; /* Espacio entre cada sección */
+  transition: transform 0.2s; /* Transición suave */
+}
+
+.contact-item:hover {
+  transform: scale(1.05); /* Efecto de aumento al pasar el ratón */
+}
+
+.contact-item i {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #fff; /* Color blanco para los íconos */
+}
+
+.contact-item h3 {
+  margin: 10px 0;
+  color: #fff; /* Color blanco para los títulos */
+}
+
+.contact-item p {
+  margin: 0;
+  color: #fff; /* Color blanco para el texto */
+}
+
+@media (max-width: 768px) {
+  .contact-item {
+      width: 100%; /* Ancho completo en dispositivos móviles */
+  }
+}
+/* Agrega esto al CSS existente */
+img.img-fluid {
+  max-width: 100%; /* Asegúrate de que no exceda el ancho del contenedor */
+  height: auto; /* Mantiene la proporción de la imagen */
+  max-height: auto; /* Ajusta la altura máxima según sea necesario */
+  object-fit: cover; /* Cubre el área del contenedor sin distorsionar la imagen */
+}

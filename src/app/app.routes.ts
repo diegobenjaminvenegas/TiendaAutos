@@ -7,6 +7,7 @@ import { combineLatest } from 'rxjs';
 import { Component } from '@angular/core';
 import { AcercaDeNosotrosComponent } from './pages/acerca-de-nosotros/acerca-de-nosotros.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
+import { ServiciosComponent } from './pages/servicios/servicios.component';
 
 
 export const routes: Routes = [
@@ -14,6 +15,7 @@ export const routes: Routes = [
     {path:'producto/:id',component:CardproductoComponent},
     {path: `buscar/:termino`,component:CardbuscadorComponent},
     {path:`inicio`,component:InicioComponent},
+    { path: 'servicios', component: ServiciosComponent },
     {path:`acerca-de-nosotros`,component:AcercaDeNosotrosComponent},
     {path:`contacto`,component:ContactoComponent},
     {path:`**`,component:InicioComponent},

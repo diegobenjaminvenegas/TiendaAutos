@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-md navbar-dark bg-dark bg-faded sticky-top">
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
   <button
-    class="navbar-toggler navbar-toggler-right"
+    class="navbar-toggler"
     type="button"
     data-toggle="collapse"
     data-target="#navbarSupportedContent"
@@ -10,49 +10,43 @@
   >
     <span class="navbar-toggler-icon"></span>
   </button>
-  <style>
-    .navbar-logo {
-      width: 150px; /* Ancho s */
-      height: 50px; /*  altura */
-    }
-  </style>
   <a class="navbar-brand" href="#">
     <img
-      src="https://cdn.pccomponentes.com/img/logos/logo-pccomponentes.svg"
+      src="https://media-private.canva.com/nzdQU/MAGVDQnzdQU/1/p.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJWF6QO3UH4PAAJ6Q%2F20241030%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20241030T082811Z&X-Amz-Expires=35626&X-Amz-Signature=68026f983803de1ca6d58cbb2edfabfeef77275f867b78ea509b5704ee394dd2&X-Amz-SignedHeaders=host%3Bx-amz-expected-bucket-owner&response-expires=Wed%2C%2030%20Oct%202024%2018%3A21%3A57%20GMT"
       class="navbar-logo"
-      alt=""
+      alt="CAR MOTORS"
     />
   </a>
-  <p></p>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [href]="['inicio']">Inicio</a>
+      <li class="nav-item">
+        <a class="nav-link" href="inicio">Inicio</a>
       </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [href]="['productos']">Productos</a>
+      <li class="nav-item">
+        <a class="nav-link" href="productos">Autos</a>
       </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [href]="['contacto']">Contacto</a>
+      <li class="nav-item">
+        <a class="nav-link" href="servicios">Servicios</a>
       </li>
-      <li class="nav-item" routerLinkActive="active">
-        <a class="nav-link" [href]="['acerca-de-nosotros']"
-          >Acerca de Nosotros</a
-        >
+      <li class="nav-item">
+        <a class="nav-link" href="contacto">Contacto</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="acerca-de-nosotros">Nosotros</a>
       </li>
     </ul>
     <form class="form-inline my-2 my-lg-0">
       <input
-        class="form-control mr-sm-2"
+        class="form-control mr-sm-2 search-input"
         type="text"
-        placeholder="Buscar producto"
+        placeholder="Buscar auto"
         (keyup.enter)="buscarProducto(buscarTexto.value)"
         #buscarTexto
       />
       <button
         (click)="buscarProducto(buscarTexto.value)"
-        class="btn btn-outline-primary my-2 my-sm-0"
+        class="btn btn-outline-blue-dark my-2 my-sm-0"
         type="button"
       >
         Buscar

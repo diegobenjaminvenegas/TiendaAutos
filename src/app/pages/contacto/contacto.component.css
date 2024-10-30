@@ -1,80 +1,79 @@
-/* contacto.component.css */
-
 /* Estilo general para el formulario */
-h4{
-    font-size:50px;
-    text-align: center;
+h4 {
+  font-size: 50px;
+  text-align: center;
+  color: #1a5594; /* Color azul claro */
+  margin-bottom: 20px;
 }
-form {
-    margin: 20px auto;
-    padding: 20px;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    max-width: 1000px;
-    background-color: #f9f9f9;
-  }
-  
-  /* Estilo para las etiquetas */
-  label {
-    font-weight: bold;
-    color: #333;
-  }
-  
-  /* Estilo para los inputs */
-  input[type="text"], input[type="email"], input[type="date"], input[type="password"] {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  /* Estilo para los mensajes de error */
-  .form-text.text-danger {
-    color: #d9534f;
-  }
-  
-  /* Estilo para los botones */
-  .btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-  }
-  
-  .btn-outline-primary {
-    background-color: #fff;
-    color: #007bff;
-    border: 1px solid #007bff;
-  }
-  
-  .btn-outline-primary:hover {
-    background-color: #007bff;
-    color: #fff;
-  }
-  
-  .btn-block {
-    width: 100%;
-  }
-  
-  /* Estilo para el checkbox */
-  input[type="checkbox"] {
-    margin-top: 7px;
-    margin-right: 10px;
-  }
-  
-  /* Estilo para alinear el checkbox con el label */
-  .form-group.row {
-    align-items: center;
-  }
 
-  .btn-outline-orange {
-    color: orangered;
-    border-color: orangered;
-  }
-  .btn-outline-orange:hover {
-    color: white;
-    background-color: orangered;
-    border-color: orangered;
-  }
-  
-  
+form {
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  max-width: 1000px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidad */
+}
+
+label {
+  font-weight: bold;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #1a5594; /* Borde azul claro */
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-text.text-danger {
+  color: #d9534f; /* Color rojo para errores */
+}
+
+/* Estilo para los botones */
+.btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.btn-outline {
+  background-color: white; /* Fondo blanco */
+  color: #1a5594; /* Texto azul claro */
+  border: 2px solid #1a5594; /* Borde azul claro */
+}
+
+.btn-outline:hover {
+  background-color: #1a5594; /* Cambia a azul claro al pasar el ratón */
+  color: white; /* Texto blanco */
+}
+
+.btn-success {
+  background-color: #28a745; /* Fondo verde para WhatsApp */
+  color: white; /* Texto blanco */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Verde más oscuro al pasar el ratón */
+}
+
+.btn-block {
+  width: 100%;
+}
+
+/* Estilo para el checkbox */
+input[type="checkbox"] {
+  margin-top: 7px;
+  margin-right: 10px;
+}
+
+.form-group.row {
+  align-items: center;
+}
+
